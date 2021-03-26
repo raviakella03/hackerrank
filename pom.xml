@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ravi</groupId>
+  <artifactId>hackerrank</artifactId>
+  <version>1.0.0</version>
+  <name>hackerrank</name>
+  <description>hackerrank</description>
+  
+  <properties>
+  	<!-- Build Properties -->
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  	<maven.compiler.source>1.8</maven.compiler.source>
+  	<maven.compiler.target>1.8</maven.compiler.target>
+  	
+  	<!-- Dependency Versions -->
+  	<junit.version>5.7.1</junit.version>
+  	
+  	<!-- Scopes -->
+  	<test.scope>test</test.scope>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.junit.jupiter</groupId>
+  		<artifactId>junit-jupiter-api</artifactId>
+  		<version>${junit.version}</version>
+  		<scope>${test.scope}</scope>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.junit.jupiter</groupId>
+  		<artifactId>junit-jupiter-params</artifactId>
+  		<version>${junit.version}</version>
+  		<scope>${test.scope}</scope>
+  	</dependency>
+  </dependencies>
+  
+  <build>
+  	<finalName>hackerrank</finalName>
+  </build>
+</project>
